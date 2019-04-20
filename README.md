@@ -1,6 +1,8 @@
 # CS2104-HW12
 Q.Four people wish to cross a bridge. It is dark, and it is necessary to use a torch when crossing the bridge, but they have only one torch between them. The bridge is narrow, and only two people can be on it at any one time. The four people take different amounts of time to cross the bridge; when two cross together they proceed at the speed of the slowest. The torch must be ferried back and forth across the bridge, so that it is always carried when the bridge is crossed?
 
+Person A can cross the bridge in 1 minute, B in 2 minutes, C in 5 minutes, and D in 8 minutes
+
 Assume that a solution minimizes the total number of crosses. This gives a total of five crosses - three pair crosses and
 two solo-crosses. Also, assume we always choose the fastest for the solo-cross. First, we show that if the two slowest persons
 (C and D) cross separately, they accumulate a total crossing time of 15. This is done by taking persons 
