@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>bridge-problem</title>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Saket Mundhada">
+    <meta name="year" content="2019">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+     {% if X and Y and Z and W %}
+         The solution for given ints is  <b>{{LCS}}</b>.
+     {% else %}
+         Enter two four ints below.
+     {% endif %}
+     <p/>
+     <form action="/" method="get">
+         Person 1: <input type="number" name="X" value="{{X}}"/>
+         <br/>
+         Person 2: <input type="number" name="Y" value="{{Y}}"/>
+         <br/>
+         Person 3: <input type="number" name="Z" value="{{Z}}"/>
+         <br/>
+         Person 4: <input type="number" name="W" value="{{W}}"/>
+         <br/>
+         <input id = "start" type="submit" value="solve"/>
+     </form>
+     <img src =  "{{URL}}" />
+     <script>
+     document.getElementById('start').addEventListener('change', onChangeHandler);
+     </script>
+   </body>
+</html>
