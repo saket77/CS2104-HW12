@@ -1,0 +1,31 @@
+/* See the full style.css file from that site for many more options. */
+/* Use a dark grey, sans-serif font as the default for the page. */
+body {
+    font-family: 'Open Sans',sans-serif;
+    background-color:#7FFFD4;
+    color: #800000;
+    text-align: center;
+    font-weight: bold;
+}
+a{
+    font-family: 'Open Sans',sans-serif;
+    color: #00BFFF;
+    font-size: 20%;
+}
+/* Give text inputs a dark grey border and a light grey background. */
+/* Give the a 0-pixel radius, which means they will have square corners. */
+input[type="text"], select, textarea {
+    border: 1px solid #EEE;
+    background: #f4f5f6;
+    -webkit-border-radius: 0px;
+}
+/* Indent input text a little and make it slightly smaller than */
+/* text outside of inputs. This will make the entire input field */
+/* (or button) roughly the same height as "normal" text on the page. */
+/* Finally, make sure there is at least a 3-pixel margin around the */
+/* inputs so that they are not right on top of each other. */
+input, textarea, select, button {
+    text-indent: 1px;
+    font: 400 11px system-ui;
+    margin: 3px;
+}
